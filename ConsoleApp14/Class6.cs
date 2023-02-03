@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections;
+//using System.ComponentModel;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace ConsoleApp14
-{
-    public class Class5
-    {
-        static void Main(string[] args)
-        {
+//namespace ConsoleApp14
+//{
+//    public class Class5
+//    {
+//        static void Main(string[] args)
+//        {
             //using Stack
             //Stack stack = new Stack();
             //stack.Push(10);
@@ -81,26 +81,26 @@ namespace ConsoleApp14
 
 
             //create an arraylist add number into it and use sort() and Revere()
-            ArrayList mylist= new ArrayList();  
-            mylist.Add(10);
-            mylist.Add(25);
-            mylist.Add(85);
-            mylist.Add(35);
-            mylist.Add(70);
-            mylist.Add(65);
-            Console.WriteLine("ArrayList before sort:");
-            foreach(int item in mylist)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine();
-            Console.WriteLine("ArrayList after sort:");
-           mylist.Sort();
-            mylist.Reverse();
-            foreach (int item in mylist)
-            {
-                Console.WriteLine(item);
-            }
-        }
-    }
-}
+//            ArrayList mylist= new ArrayList();  
+//            mylist.Add(10);
+//            mylist.Add(25);
+//            mylist.Add(85);
+//            mylist.Add(35);
+//            mylist.Add(70);
+//            mylist.Add(65);
+//            Console.WriteLine("ArrayList before sort:");
+//            foreach(int item in mylist)
+//            {
+//                Console.WriteLine(item);
+//            }
+//            Console.WriteLine();
+//            Console.WriteLine("ArrayList after sort:");
+//           mylist.Sort();
+//            mylist.Reverse();
+//            foreach (int item in mylist)
+//            {
+//                Console.WriteLine(item);
+//            }
+//        }
+//    }
+//}
